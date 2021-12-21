@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,26 +18,75 @@
   </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main id="main-card">
+    <div id="section-a">
+      <img id="sectiona-img1" src="images/illustration-woman-online-mobile.svg" alt="illustration of woman using computer">
+      <img id="sectiona-img2" src="images/bg-pattern-mobile.svg" alt="background pattern for mobile view">
+    </div>
+    <div id="section-b">
+      <h1>FAQ</h1>
+      <div id="accordion-list">
+        <ul>
+          <li class="first-li">
+            How many team members can I invite?
+          </li>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">
+          <li class="hidden-li">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="first-li">
+            What is the maximum file upload size?
+          </li>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">
+          <li class="hidden-li">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="first-li">
+            How do I reset my password?
+          </li>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">
+          <li class="hidden-li">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="first-li">
+            Can I cancel my subscription?
+          </li>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">
+          <li class="hidden-li">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="first-li">
+            Do you provide additional support?
+          </li>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">
+          <li class="hidden-li">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </li>
+        </ul>
+        <hr>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Rox</a>.
+    </div>
+    <script src="script.js"></script>
+  </footer>
 </body>
 </html>
