@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: hsl(273, 75%, 66%);
+    padding: 10em 0 5em 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+#main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 700px;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+#section-a {
+    position: relative;
+}
+
+#sectiona-img1 {
+    position: absolute;
+    top: -105%;
+}
+
+#section-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#accordion-list ul {
+    display: grid;
+    grid-template-columns: 250px 10px;
+    column-gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin-block: 16px;
+}
+
+#accordion-list .first-li {
+    color: hsl(237, 12%, 33%);
+}
+
+#accordion-list .hidden-li {
+    color: hsl(240, 6%, 50%);
+}
+
+.hidden-li {
+    display: none;
+    margin-top: 5px;
+}
+
+.rotate-arrows {
+    transform: rotate(180deg);
+    padding-bottom: 5px;
+}
+
+.show-lis {
+    display: inherit;
+}
+
+.bold-font {
+    font-weight: bold;
+    color: hsl(238, 29%, 16%);
+}
+
+h1 {
+    color: hsl(238, 29%, 16%);
+    font-size: 2.5em;
+}
+
+ul img {
+    padding-top: 5px;
+}
+
