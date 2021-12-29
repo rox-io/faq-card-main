@@ -40,8 +40,8 @@ body {
     grid-template-columns: 250px 10px;
     column-gap: 10px;
     list-style-type: none;
-    padding: 0;
-    margin-block: 16px;
+    padding: 10px 0 10px 0;
+    margin: 0;
 }
 
 #accordion-list .first-li {
