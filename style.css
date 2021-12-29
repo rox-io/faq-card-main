@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    background-color: hsl(273, 75%, 66%);
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     padding: 10em 0 5em 0;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
