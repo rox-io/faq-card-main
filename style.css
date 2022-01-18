@@ -9,6 +9,13 @@ body {
     font-size: 12px;
 }
 
+@media only screen and (min-width: 768px) {
+    h1 {
+    margin-top: 0;
+
+    }
+}
+
 #main-card {
     display: flex;
     flex-direction: column;
@@ -20,13 +27,60 @@ body {
     border-radius: 25px;
 }
 
-#section-a {
-    position: relative;
+@media only screen and (min-width: 768px){
+    #main-card {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        height: 450px;
+        padding: 0 6rem 0 0;
+        position: relative;
+    }
 }
 
-#sectiona-img1 {
+
+@media only screen and (min-width: 768px) {
+    #section-a {
+        width: 450px;
+        height: 450px;
+        background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position-y: 3rem, -15.5rem;
+        background-position-x: -4rem, -29rem;
+        background-size: 25rem, 50rem;
+        border-radius: 25px;
+    }
+}
+
+#section-a-bg {
+    position: relative;
+    
+}
+
+#mobile-bg {
     position: absolute;
-    top: -105%;
+    top: -7rem;
+    left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #mobile-bg-pattern, #mobile-bg {
+        display: none;
+    }    
+}
+
+#box-img {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    #box-img {
+        display: block;
+        position: absolute;
+        top: 32%;
+        left: -16%;
+    }
 }
 
 #section-b {
@@ -35,13 +89,28 @@ body {
     align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+    #section-b {
+        align-items: flex-start;
+    }
+}
+
+#accordion-list {
+    height: 300px;
+}
+
 #accordion-list ul {
     display: grid;
     grid-template-columns: 250px 10px;
     column-gap: 10px;
     list-style-type: none;
-    padding: 10px 0 10px 0;
+    padding: 15px 0;
     margin: 0;
+}
+
+#accordion-list ul:hover {
+    cursor: grab;
+    color: rgb(247, 129, 86);
 }
 
 .list-font-color {
@@ -51,6 +120,7 @@ body {
 .hidden-li {
     display: none;
     margin-top: 5px;
+    color: hsl(0, 0%, 57%);
 }
 
 .rotate-arrows {
@@ -75,6 +145,7 @@ h1 {
 ul img {
     padding-top: 5px;
 }
- hr {
-     opacity: 0.3;
- }
+
+div.list-divider ul {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
