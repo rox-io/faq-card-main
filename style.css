@@ -12,11 +12,6 @@ body {
     margin: 0;
 }
 
-h1 {
-    color: hsl(238, 29%, 16%);
-    font-size: 2.5em;
-}
-
 #main-card {
     display: flex;
     flex-direction: column;
@@ -40,7 +35,7 @@ h1 {
     }
 }
 
-
+/*SECTION A*/
 @media only screen and (min-width: 768px) {
     #section-a {
         flex-basis: 45%;
@@ -84,6 +79,7 @@ h1 {
     }
 }
 
+/*SECTION B*/
 #section-b {
     display: flex;
     flex-direction: column;
@@ -95,6 +91,19 @@ h1 {
         align-items: flex-start;
         flex-basis: 45%;
     }
+}
+
+h1 {
+    color: hsl(238, 29%, 16%);
+    font-size: 2.5em;
+}
+
+ul img {
+    padding-top: 5px;
+}
+
+div.list-divider ul {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 #accordion-list {
@@ -115,6 +124,11 @@ h1 {
     color: rgb(247, 129, 86);
 }
 
+/*FOOTER*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*JAVASCRIPT SELECTORS*/
 .list-font-color {
     color: hsl(240, 3%, 38%);
 }
@@ -139,10 +153,3 @@ h1 {
     color: hsl(238, 29%, 16%);
 }
 
-ul img {
-    padding-top: 5px;
-}
-
-div.list-divider ul {
-    border-bottom: 1px solid hsl(240, 5%, 91%);
-}
