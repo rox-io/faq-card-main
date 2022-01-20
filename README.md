@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![images/Screenshot-faq-accordion-card.png]
+[images/screenshot-faq-accordion-card.png]
 
 ### Links
 
@@ -44,5 +44,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Rox](https://rox-io.github.io/faq-card-main/)
 - Frontend Mentor - [@rox-io](https://www.frontendmentor.io/profile/rox-io)
