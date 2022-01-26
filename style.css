@@ -106,10 +106,6 @@ ul {
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-#accordion-container {
-    height: 290px;
-}
-
 .accordion-list {
     display: flex;
     justify-content: space-between;
@@ -121,13 +117,17 @@ ul {
     padding-top: 5px;
 }
 
+#accordion-container {
+    height: 290px;
+}
+
 #accordion-container ul {
     list-style-type: none;
     flex-basis: 90%;
     margin: 0;
 }
 
-#accordion-container ul:hover {
+.accordion-list ul:hover {
     cursor: grab;
     color: rgb(247, 129, 86);
 }
