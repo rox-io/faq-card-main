@@ -42,8 +42,7 @@ body {
         height: 470px;
         background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
         background-repeat: no-repeat, no-repeat;
-        background-position-y: 4.4rem, -15.5rem;
-        background-position-x: -4rem, -31rem;
+        background-position: -5.5em 6em, -41em -20em;
         background-size: 25rem, 52rem;
         border-radius: 25px;
     }
