@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot-faq-page.png)
+![](images/Screenshot-faq-page.png)
 
 ### Links
 
