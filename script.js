@@ -1,12 +1,12 @@
 const arrows = document.querySelectorAll(".accordion-list img");
 const hiddenLis = document.querySelectorAll("ul .hidden-li");
 const firstLis = document.querySelectorAll("ul .first-li");
-const uls = document.querySelectorAll(".accordion-list ul");
+const listItem = document.querySelectorAll(".accordion-list");
 
 let currentSelectedList;
 let previousSelectedList;
-for (let i = 0; i < uls.length; i++) {
-  uls[i].addEventListener("click", () => {
+for (let i = 0; i < listItem.length; i++) {
+  listItem[i].addEventListener("click", () => {
       previousSelectedList = currentSelectedList;
       currentSelectedList = i;
     if(currentSelectedList === previousSelectedList) {
