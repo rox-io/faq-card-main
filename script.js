@@ -1,7 +1,7 @@
-const arrows = document.querySelectorAll("ul img");
+const arrows = document.querySelectorAll(".accordion-list img");
 const hiddenLis = document.querySelectorAll("ul .hidden-li");
 const firstLis = document.querySelectorAll("ul .first-li");
-const uls = document.querySelectorAll("#accordion-list ul");
+const uls = document.querySelectorAll(".accordion-list ul");
 
 let currentSelectedList;
 let previousSelectedList;

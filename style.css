@@ -97,28 +97,45 @@ h1 {
     font-size: 2.5em;
 }
 
-ul img {
-    padding-top: 5px;
+ul {
+    padding-left: 0;
 }
 
-div.list-divider ul {
+.list-divider .accordion-list {
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-#accordion-list {
+#accordion-container {
     height: 18rem;
 }
 
-#accordion-list ul {
+/*#accordion-list ul {
     display: grid;
     grid-template-columns: 250px 10px;
     column-gap: 10px;
     list-style-type: none;
     padding: 15px 0;
     margin: 0;
+}*/
+
+.accordion-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 270px;
+    padding: 16px 0;
+}
+.accordion-list img {
+    padding-top: 5px;
 }
 
-#accordion-list ul:hover {
+#accordion-container ul {
+    list-style-type: none;
+    flex-basis: 90%;
+    margin: 0;
+}
+
+#accordion-container ul:hover {
     cursor: grab;
     color: rgb(247, 129, 86);
 }
