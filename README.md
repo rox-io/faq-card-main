@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/faq-card-page-designed-with-css-flexbox-v6WjOL0ap]
 - Live Site URL: [https://rox-io.github.io/faq-card-main/]
 
 ## My process
